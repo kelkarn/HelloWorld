@@ -1,10 +1,4 @@
-/**
- * Created with IntelliJ IDEA.
- * User: dell
- * Date: 8/17/13
- * Time: 7:31 PM
- * To change this template use File | Settings | File Templates.
- */
+
 
 public class HelloWorldMain {
 
@@ -18,7 +12,7 @@ public class HelloWorldMain {
 
     }
 
-    public static String putInTimeBand(String time, int minuteWindow) {
+    public static String putInTimeBand(String time, int minuteWindow) { // timeband function
 
         if (MINS_IN_HOUR%minuteWindow != 0) {
 
